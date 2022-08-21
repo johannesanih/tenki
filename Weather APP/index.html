@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="icon" href="Tenki Logo.png">
+	<title>Tenki | Weather</title>
+</head>
+<body>
+	<div id="container">
+		<header id="c-head">
+			<img src="Tenki Logo.png" width="30" height="30">
+			<span id="name">Tenki</span>
+		</header>
+		<div id="weather-searcher">
+			<div id="c-main">
+				<form id="weather-form" name="weather-form">
+					<input type="text" id="city" name="city" placeholder="Input City Name">
+					<input type="button" id="submitBTN" name="submitBTN" value="Search">
+				</form>
+			</div>
+			<div id="c-main-result" class="hide">
+				<h3 id="ld">Loading...</h3>
+				<span id="result">
+				</span>
+			</div>
+		</div>
+		<footer id="c-foot">
+			<span>By <a href='https://www.facebook.com/johannes.anih'>Johannes Anih</a></span>
+		</footer>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

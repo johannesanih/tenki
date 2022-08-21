@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hide {
+	display: none;
+}
+#container {
+	margin: 20px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 3px #9d9dff;
+}
+#container>#c-head {
+	padding: 30px;
+	background-color: #2121b1;
+	font-weight: bold;
+	font-size: 24px;
+	color: #b5d0f2;
+	border-radius: 10px 10px 0 0;
+	display: flex;
+}
+#container>#c-head>#name {
+	display: block;
+	margin-left: 5px;
+	align-self: center;
+}
+#container>#c-foot {
+	padding: 20px;
+	background-color: #4040ff;
+	font-weight: bold;
+	text-align: center;
+	color: #c6c6ff;
+	border-radius: 0 0 10px 10px;
+}
+#container>#c-foot a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #c6c6ff;
+}
+#container>#c-foot a:hover,
+#container>#c-foot a:active {
+	text-decoration: underline;
+}
+#weather-searcher {
+	background-color: #eaeaff;
+}
+#weather-searcher>#c-main {
+	padding: 20px;
+	font-family: sans-serif;
+}
+#weather-searcher>#c-main>form>input {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #4040ff;
+}
+#weather-searcher>#c-main-result {
+	margin: 10px;
+	padding: 20px;
+	flex-basis: 200px;
+	background-color: white;
+	border: 1px solid #ceceff;
+	border-radius: 8px;
+}
+#weather-searcher>#c-main-result>#result {
+	display: block;
+	width: 100%;
+	color: #4040ff;
+}
